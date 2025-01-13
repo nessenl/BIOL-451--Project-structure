@@ -1,0 +1,31 @@
+from setuptools import setup
+
+setup()
+[metadata]
+name = <Image Based Data Analysis and Visualization of Benthos>
+version = <version number: 0.0.0>
+license = <license name, e.g. MIT>
+description = <. The focus of work is a large dataset of coral images recently collected by NOAA. The student will learn coral biology and ecology, benthic survey methods, image data and metadata; batch processing, scale and measurement, data analysis and visualization techniques. The primary products of this work will be a poster presentation, some basic python code, and enhanced image datasets.
+>
+long_description = file: README.rst
+author = <Lilian Nessen>
+author_email = <nessenl@g.cofc.edu>
+classifiers=
+   <classifier 1>
+   <classifier 2>
+   <...>
+   <classifier m>
+
+[options]
+packages = find:
+package_dir =
+    =src
+include_package_data = True
+install_requires =
+   <requirement 1>
+   <requirement 2>
+   <...>
+   <requirement n>
+
+[options.packages.find]
+where=src
